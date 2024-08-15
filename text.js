@@ -1,4 +1,9 @@
 const accountID=16756
-var accountPass=""
+var accountPass="12345"
 let accountEmail="asahlot7@xyz.com"
-console.log("hello")
+accountCity="Jaipur"
+// accountID=2 // not allowed
+console.log(accountID);
+
+
+
