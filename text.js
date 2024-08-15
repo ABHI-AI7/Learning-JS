@@ -9,7 +9,9 @@ accountEmail="hc@gmail.com";
 accountPass="4567"
 accountCity="Delhi"
 
+/*  "var" is globally scoped and function scoped while "let" is block scoped, only accessible within the block in which they are declared  */
 
-console.table([accountEmail,accountPass,accountCity])
+
+console.table([accountEmail,accountPass,accountCity, accountID]) // alternative of console.log() so that we can print results together //
 
 
