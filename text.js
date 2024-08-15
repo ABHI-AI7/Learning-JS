@@ -4,14 +4,17 @@ let accountEmail="asahlot7@xyz.com"  // can be changed dynamically whenever anot
 accountCity="Jaipur"
 // accountID=2 // not allowed
 console.log(accountID);
+let accountState;
 
 accountEmail="hc@gmail.com";
 accountPass="4567"
 accountCity="Delhi"
 
+
+
 /*  "var" is globally scoped and function scoped while "let" is block scoped, only accessible within the block in which they are declared  */
 
 
-console.table([accountEmail,accountPass,accountCity, accountID]) // alternative of console.log() so that we can print results together //
+console.table([accountEmail,accountPass,accountCity, accountID, accountState]) // alternative of console.log() so that we can print results together //
 
 
