@@ -14,7 +14,8 @@
 let x;
 console.log(x)==>undefined*/
 
-/* NaN ==> not a number, represents a computational error */
+/* NaN ==> not a number, represents a computational error
+*/
 
 // Infinity and -infinity//
 
