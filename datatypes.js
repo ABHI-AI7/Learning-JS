@@ -37,7 +37,8 @@ eg--- let num = [2,3,4,5]
 let mixed = [1, "two", Null, True]   */
 
 
-/*Function =>  functions are first class objects, meaning they can be stored as variables and passed  as arguements to other functions.
+/*Function =>  functions are first class objects, meaning they can be stored as variables and passed  
+as arguements to other functions.
 
 eg--- function myname() {
 return "hello!";
@@ -67,6 +68,57 @@ console.log(typeof undefined)   //undefined
 
 
 
+/* $$$$$$$$$$$$$$$$$$#######################$$$$$$$$$$$$$$$$$$$$########################$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* primitive vs non-primitive data type ----- differentiated on the basis of how are they stored in the memory and 
+how can we access our data.
+
+1--> primitive: Number, boolean, string, bigint, symbol, Null, Undefined -- these are call by value. 
+2--> non-primitive or reference type: call by reference --- Arrays, sets, function, object, date.
+
+
+JavaScript is a dynamically typed language, which means that data types of variables are determined by 
+the value they hold at runtime and can change throughout the program as we assign different values to them.
+
+
+*/
+
+/* const id=Symbol("123")
+const anotherId=Symbol("22")
+
+object
+undefined   */
+
+/* ###############################################################################################*/
+// Stack and Heap Memory
+//stack is for primitive data type 
+// heap is for non-primitive data type
+// stack gives you the copy and heap gives you the reference to the original value
+
+/* eg------ STACK:*/
+
+/*  let userName = "Ankit"
+let newName = userName
+newName="Raja"
+console.log(newName)
+console.log(userName)
+
+Raja
+Ankit -----*/
+
+/* eg ---- HEAP: */
+
+/* let userfirst = {name:"john", surname:"doe",age: 47,eyecolor: "black" }
+console.log(userfirst)
+
+let usersecond=userfirst
+usersecond.age=58
+console.log(usersecond)
+console.log(userfirst)
+
+{ name: 'john', surname: 'doe', age: 47, eyecolor: 'black' }
+{ name: 'john', surname: 'doe', age: 58, eyecolor: 'black' }
+{ name: 'john', surname: 'doe', age: 58, eyecolor: 'black' } -----*/
 
 
 
