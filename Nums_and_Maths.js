@@ -29,7 +29,7 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 /* +++++###############################--------------MATHS------------------#########################################+++++  */
 
-console.log(Math);
+/*  console.log(Math);
 console.log(Math.abs(-9));
 console.log(Math.round(6.423));
 console.log(Math.ceil(4.3));
@@ -44,6 +44,21 @@ const min=0
 const max=6
 console.log(Math.random()*(max-min+1));
 console.log(Math.floor(Math.random()*(max-min+1))+min)
+
+
+
+Object [Math] {}
+9
+6
+5
+4
+3
+3.767641236794456
+5.1913966938032745   
+4  ----*/
+
+
+
 
 
 
