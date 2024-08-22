@@ -40,6 +40,19 @@ console.log(myArr);
   // Slice , Splice
   
 
+/* var num=50
+console.log(num);
+
+
+function print(){
+if (true){num=60
+    console.log(num);
+    
+}
+}
+
+print()
+console.log(num);  ---*/
 
 
 
