@@ -63,6 +63,10 @@ function calculateCartPrice(...num){
 
 console.log(calculateCartPrice(200,300,500));
 
+const total =  function (sum){
+    for (value in calculateCartPrice){}
+}
+
 
 
 //SCOPE:_________
